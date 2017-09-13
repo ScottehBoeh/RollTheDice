@@ -99,6 +99,7 @@ public class GameInstance {
                     System.out.println("Dice " + gameDice.get(i).getDiceID() + " is currently at " + getSingleGameDice(i).getDiceFaceValue());
                 }
             } else {
+                /** Inform the user that there are no dice in the game */
                 System.out.println("This game doesn't have any Dice! That's odd...");
             }
 
