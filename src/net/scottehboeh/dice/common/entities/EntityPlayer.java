@@ -5,15 +5,15 @@ package net.scottehboeh.dice.common.entities;
  */
 public class EntityPlayer {
 
-    private String playerUsername;
-    private int playerID;
-    private int playerScore;
+    private String playerUsername; /** Player Username (String) */
+    private int playerID; /** Player Unique Identifier (int) */
+    private int playerScore; /** Player Score (int) */
 
     /**
      * Default Constructor for Player Entity
      */
     public EntityPlayer(){
-        setPlayerScore(5);
+        setPlayerScore(5); /** Set Score as 5 (default starting score) */
     }
 
     /**
