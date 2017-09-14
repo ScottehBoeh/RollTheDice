@@ -13,9 +13,7 @@ public class EntityPlayer {
      * Default Constructor for Player Entity
      */
     public EntityPlayer(){
-
         setPlayerScore(5);
-
     }
 
     /**
