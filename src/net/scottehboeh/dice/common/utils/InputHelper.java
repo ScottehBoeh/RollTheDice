@@ -14,7 +14,6 @@ public class InputHelper {
 
         /** If username is null, too short or too long: */
         if(givenUsername == null || givenUsername.length() < 3 || givenUsername.length() > 16){
-            System.out.println("The username " + givenUsername + " is Invalid!");
             return false;
         }
 

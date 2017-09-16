@@ -17,6 +17,13 @@ public class EntityPlayer {
     }
 
     /**
+     * Constructor for Player Entity with extra Attributes
+     */
+    public EntityPlayer(int givenScore){
+        setPlayerScore(givenScore); /** Set Score as given score */
+    }
+    
+    /**
      * Get Username - Returns the players Username
      * @return - Username (String)
      */
@@ -46,6 +53,14 @@ public class EntityPlayer {
      */
     public void setPlayerScore(int givenScore){
         this.playerScore = givenScore;
+    }
+    
+    /**
+     * Add to Score - Add a value to the players current Score
+     * @param givenScore - The Given Value to Add (int)
+     */
+    public void addToScore(int givenScore){
+    	this.playerScore += givenScore;
     }
 
 }
